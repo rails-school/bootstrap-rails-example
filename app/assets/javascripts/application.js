@@ -17,4 +17,5 @@
 //= require angular-resource
 //= require angularjs/rails/resource
 //= require angular-ui
+//= require bootstrap
 //= require_tree .
