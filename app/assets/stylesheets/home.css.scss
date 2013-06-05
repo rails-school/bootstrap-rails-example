@@ -12,6 +12,40 @@
   top:100px;
 
 }
+.space {
+  background: url(http://images.fanpop.com/images/image_uploads/Space-space-584336_1600_1200.jpg);
+}
+.beer {
+  background: url(http://www.culinaryphoto.com/data/photos/42_1beer4.jpg);
+}
+
+#myCarousel {
+  height:500px;
+  color:white;
+
+  .item {
+    padding-top: 50px;
+    height:450px;
+
+  }
+}
+
+.first {
+  min-height:100px;
+}
+.second {
+  min-height:200px;
+}
+
+.green {
+  background:green;
+}
+.pink {
+  background:pink;
+}
+.border {
+  //border: 1px dashed rgba(0,0,0,0.3);
+}
 
 @media all and (max-width: 640px) {
   .magic-box {

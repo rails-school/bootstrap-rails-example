@@ -1,4 +1,50 @@
-%h1 Home#index
-%p Find me in app/views/home/index.html.haml
+.navbar
+  .navbar-inner
+    %a.brand{:href => "#"} Beer to the Space!
+    %ul.nav
+      %li.active
+        %a{:href => "#"} Beer
+      %li
+        %a{:href => "#"} Space
+      %li
+        %a{:href => "#"} No
+#myCarousel.carousel.slide.space
+  %ol.carousel-indicators
+    %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
+    %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
+    %li{"data-slide-to" => "2", "data-target" => "#myCarousel"}
+  / Carousel items
+  .carousel-inner
+    .item.active
+      .container
+        .row
+          .span4
+            %h1
+              Beer picture
+          .span6
+            %p
+              Beer is an alcoholic beverage produced by the saccharification of starch and fermentation of the resulting sugar. The starch and saccharification enzymes are often derived from malted cereal grains, most commonly malted barley and malted wheat.[1] Most beer is also flavoured with hops, which add bitterness and act as a natural preservative, though other flavourings such as herbs or fruit may occasionally be included. The preparation of beer is called brewing.
+    .item.beer
+      .container
+        .row
+          .span4
+            Space picture
+          .span6
+            Space is an alcoholic beverage produced by the saccharification of starch and fermentation of the resulting sugar. The starch and saccharification enzymes are often derived from malted cereal grains, most commonly malted barley and malted wheat.[1] Most beer is also flavoured with hops, which add bitterness and act as a natural preservative, though other flavourings such as herbs or fruit may occasionally be included. The preparation of beer is called brewing.
 
-%div.magic-box
+  / Carousel nav
+  %a.carousel-control.left{"data-slide" => "prev", :href => "#myCarousel"} ‹
+  %a.carousel-control.right{"data-slide" => "next", :href => "#myCarousel"} ›
+.container
+  .row.first
+    .span4
+      First column
+    .span4
+      Second
+    .span4
+      Third
+  .row
+    .span4
+      First column
+    .span8
+      8 columns hahaha
